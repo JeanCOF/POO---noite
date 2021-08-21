@@ -34,7 +34,7 @@ public final void setNumeroAgencia(String numeroAgencia){
 
 public final void setSaldo(float x){
   if (x >= 0){
-      this.saldo = this.saldo ;
+      this.setSaldo(saldo + x);
   }
   else {
       System.out.println("Saldo não pode fiar negativo");
